@@ -9,6 +9,7 @@
     <modules>
         <module>springBootLearn</module>
         <module>chapterf4</module>
+        <module>chapter6</module>
     </modules>
     <name>Spring4.x第二章实例</name>
     <description>Spring4.x第二章实例</description>
