@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter2.iml" filepath="$PROJECT_DIR$/chapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6/chapter6.iml" filepath="$PROJECT_DIR$/chapter6/chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7/chapter7.iml" filepath="$PROJECT_DIR$/chapter7/chapter7.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapterf4/chapterf4.iml" filepath="$PROJECT_DIR$/chapterf4/chapterf4.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBootLearn/springBootLearn.iml" filepath="$PROJECT_DIR$/springBootLearn/springBootLearn.iml" />
     </modules>
