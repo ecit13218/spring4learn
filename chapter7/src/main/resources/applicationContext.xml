@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="greetingBeforeAdvice" class="com.smart.advice.GreetingBeforeAdvice"/>
+    <bean id="greetingAfterAdvice" class="com.smart.advice.GreetingAfterAdvice"/>
+    <bean id="greetingAroundAdvice" class="com.smart.advice.GreetingInterceptor"/>
+    <bean id="greetingExceptionAdvice" class="com.smart.advice.TransactionManager"/>
+    <bean id="target" class="com.smart.advice.WaiterImpl"/>
+    <bean id="forumService" class="com.smart.advice.ForumService"/>
+    <bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:proxyInterfaces="com.smart.advice.Waiter"
+          p:interceptorNames="greetingBeforeAdvice,greetingAfterAdvice,greetingAroundAdvice"
+          p:target-ref="target"
+    />
+    <bean id="exceptionBean" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:interceptorNames="greetingExceptionAdvice"
+          p:optimize="true"
+          p:target-ref="forumService"
+    />
+    <!--target:代理的目标对象
+        proxyInterfaces：代理所需要实现的接口，可以是多个接口，用list元素设置
+        interceptorNames:需要植入目标的bean列表，这些bean必须实现了MethodInterceptor或者Advisor的bean
+        singleton：返回的代理是否是单例
+        optimize:设置为true时，强制使用CGLib代理
+        proxyTargetClass:是否对类进行代理，当设置为true时，使用CGLib进行代理
+      -->
+
+</beans>
