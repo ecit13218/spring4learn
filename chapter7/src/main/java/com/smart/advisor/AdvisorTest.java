@@ -10,8 +10,8 @@ public class AdvisorTest {
     public static void main(String[] args) {
         String path= "com/smart.advisor/advisor.xml";
         ApplicationContext ctx=new ClassPathXmlApplicationContext(path);
-        Seller seller= (Seller) ctx.getBean("seller");
-        Waiter waiter= (Waiter) ctx.getBean("waiter");
+        Seller seller= (Seller) ctx.getBean("sellerTarget");
+        Waiter waiter= (Waiter) ctx.getBean("waiterTarget");
         seller.greetTo("zhengyao");
         waiter.greetTo("zy");
         waiter.serveTo("zhengyao3");

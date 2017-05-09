@@ -1,3 +1,4 @@
+/*
 package com.smart.advisor;
 
 import org.springframework.aop.ClassFilter;
@@ -7,9 +8,11 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
+*/
 /**
  * Created by Administrator on 2017/5/8.
- */
+ *//*
+
 public class GreetingDynamicPointCut extends DynamicMethodMatcherPointcut {
     private static List<String> specialClientList=new ArrayList<String>();
     static {
@@ -34,3 +37,4 @@ public class GreetingDynamicPointCut extends DynamicMethodMatcherPointcut {
         return "greetTo".equals(method.getName());
     }
 }
+*/

@@ -11,6 +11,7 @@
         <module>chapterf4</module>
         <module>chapter6</module>
         <module>chapter7</module>
+        <module>chapter8</module>
     </modules>
     <name>Spring4.x第二章实例</name>
     <description>Spring4.x第二章实例</description>
@@ -84,7 +85,48 @@
             <artifactId>jstl</artifactId>
             <version>${jstl.version}</version>
         </dependency>
-
+        <!-- asm/cglib依赖（spring依赖） -->
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-util</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>asm</artifactId>
+                    <groupId>org.ow2.asm</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>${aopalliance.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${commons-codec.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -119,6 +161,9 @@
     </build>
 
     <properties>
+        <aopalliance.version>1.0</aopalliance.version>
+        <asm.version>4.0</asm.version>
+        <cglib.version>3.0</cglib.version>
         <file.encoding>UTF-8</file.encoding>
         <spring.version>4.2.2.RELEASE</spring.version>
         <mysql.version>5.1.29</mysql.version>

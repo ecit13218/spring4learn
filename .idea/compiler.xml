@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter6" />
         <module name="chapter7" />
+        <module name="chapter8" />
         <module name="chapterf4" />
         <module name="springBootLearn" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="chapter4" target="1.5" />
       <module name="chapter6" target="1.5" />
       <module name="chapter7" target="1.5" />
+      <module name="chapter8" target="1.5" />
       <module name="chapterf4" target="1.5" />
       <module name="springBootLearn" target="1.6" />
     </bytecodeTargetLevel>

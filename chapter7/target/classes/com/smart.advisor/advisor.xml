@@ -13,14 +13,14 @@
     <bean id="waiter" parent="parent" p:target-ref="waiterTarget"/><!--进行代理 -->
     <bean id="seller" parent="parent" p:target-ref="sellerTarget"/><!--进行代理 -->
 
-    <bean id="dynamicAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+    <!--<bean id="dynamicAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
         <property name="pointcut">
             <bean class="com.smart.advisor.GreetingDynamicPointCut"/>
         </property>
         <property name="advice">
             <bean class="com.smart.advisor.GreetingBeforeAdvice"/>
         </property>
-    </bean>
+    </bean>-->
     <bean id="waiter2" class="org.springframework.aop.framework.ProxyFactoryBean" p:interceptorNames="dynamicAdvisor"
           p:target-ref="waiterTarget" p:proxyTargetClass="true"/>
     <bean id="controlFlowPointcut" class="org.springframework.aop.support.ControlFlowPointcut">
@@ -29,8 +29,16 @@
         <constructor-arg type="java.lang.String" value="service"/><!--指定流程切点方法-->
     </bean>
     <bean id="controlFlowAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor"
-          p:pointcut-ref="controlFlowPointcut" p:advice-ref="greetingBeforeAdvice"/>
+          p:pointcut-ref="controlFlowPointcut" p:advice-ref="greetingBeforeAdvice"/><!--引用上配置的流程切点 -->
     <bean id="waiter3" class="org.springframework.aop.framework.ProxyFactoryBean"
-          p:interceptorNames="controlFlowAdvisor" p:target-ref="waiterTarget" p:proxyTargetClass="true"/>
+          p:interceptorNames="controlFlowAdvisor" p:target-ref="waiterTarget"
+          p:proxyTargetClass="true"/><!--对对应类进行增强 -->
+    <!--<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator" p:beanNames="*er*"-->
+          <!--p:interceptorNames="greetingBeforeAdvice" p:optimize="true"/>-->
+
+    <bean id="regexpAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor" p:pattern=".*greet.*"
+          p:advice-ref="greetingBeforeAdvice"/>
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+
 
 </beans>
