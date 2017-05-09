@@ -15,6 +15,7 @@ public class GreetingComposablePointcut {
         Pointcut pt1=new ControlFlowPointcut(WaiterDelegate.class,"service");
         NameMatchMethodPointcut pt2=new NameMatchMethodPointcut();
         pt2.addMethodName("greetTo");
+        System.out.println();
         return cp.intersection(pt1).intersection((MethodMatcher) pt2);
     }
 }

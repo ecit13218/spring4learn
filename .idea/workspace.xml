@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c168308-9d52-4b98-895b-42ae5feeedca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/AdvisorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/ControlFlowTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/DynamicAdvisorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingAdvisor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingComposablePointcut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingDynamicPointCut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/Seller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/Waiter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/WaiterDelegate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/introduce/ControllalePerformanceMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/introduce/ForumService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/introduce/IntroduceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/introduce/Monitorable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/introduce/Testable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/src/main/resources/com/smart.advisor/advisor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter7/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/chapter7/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter7/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/chapter7/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingComposablePointcut.java" afterPath="$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingComposablePointcut.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,8 +115,8 @@
       <file leaf-file-name="GreetingComposablePointcut.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingComposablePointcut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="242">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -349,7 +333,7 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -436,158 +420,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart.advisor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4.xlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advisor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -603,8 +435,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="SearchEverywhereHistoryKey" value="beandefin&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;abstractApplication&#9;PSI&#9;JAVA://org.springframework.context.support.AbstractApplicationContext&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;BeanPostProcessor&#9;FILE&#9;jar://C:/Users/zheng/.m2/repository/org/springframework/spring-beans/4.2.2.RELEASE/spring-beans-4.2.2.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1222,7 +1054,7 @@
       <workItem from="1493689847806" duration="4977000" />
       <workItem from="1493773146276" duration="3080000" />
       <workItem from="1493778391733" duration="1619000" />
-      <workItem from="1493780676560" duration="57435000" />
+      <workItem from="1493780676560" duration="59864000" />
     </task>
     <servers />
   </component>
@@ -1259,7 +1091,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122187000" />
+    <option name="totallyTimeSpent" value="124616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1272,7 +1104,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1653,10 +1484,10 @@
         <state relative-caret-position="115">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1666,8 +1497,8 @@
         <state relative-caret-position="207">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1685,11 +1516,11 @@
         <state relative-caret-position="50">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#517#715#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#517#715#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1792,8 +1623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter7/src/main/java/com/smart/advisor/GreetingComposablePointcut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="242">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
