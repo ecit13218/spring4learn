@@ -14,4 +14,16 @@
     <aop:aspectj-autoproxy/>
     <bean class="com.smart.aspectj.TestNamePointcut"/>
     <bean id="waiter" class="com.smart.aspectj.WaiterImpl"/>
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+
+    </bean>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" p:location="jdbc.properties"
+          p:fileEncoding="utf-8"/>
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          p:driverClassName="{driverClassName}"
+          p:url="{url}"
+          p:username="{username}"
+          p:password="{password}"
+    />
+
 </beans>
